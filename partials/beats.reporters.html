@@ -4,13 +4,13 @@
     <li ng-repeat="item in beat.reporters">
       <h3>
         <span ng-click="activeReporter = true">
-          <span ng-dblclick="activerReporter = false">
-            {{ item.name }}
+          <span ng-dblclick="activeReporter = false">
+            {{ item.name }}<br>
           </span>
         </span>
-        <div ng-if="activeReporter">
+        <div ng-show="activeReporter">
           Years of Experience: {{ item.employment }}<br>
-          Birthday: {{ item.birthday }}
+          Birthday: {{ item.birthday | date:'shortDate' }}
         </div>
       </h3>
     </li>
