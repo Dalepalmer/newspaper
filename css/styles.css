@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('MilkyWay.jpg');
+
+}
+
+h1.ng-scope {
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+}
+
+div.jumbotron {
+  background: rgba(255, 170, 0, 0.67);
+}
+
+a {
+  color: #40E0D4;
+  text-shadow: 1px 1px 1px black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}

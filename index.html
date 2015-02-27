@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" ng-app="newsPaper">
+<head>
+  <meta charset="UTF-8">
+  <title>The Milky Way Daily</title>
+  <script src="lib/angular.js"></script>
+  <script src="lib/angular-ui-router.js"></script>
+  <script src="app.js"></script>
+  <script src="controllers/BeatsController.js"></script>
+  <script src="controllers/ReportersController.js"></script>
+  <script src="services/BeatsFactory.js"></script>
+  <script src="services/UtilitiesFactory.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <div ui-view></div>
+    </div>
+  </div>
+</body>
+</html>
