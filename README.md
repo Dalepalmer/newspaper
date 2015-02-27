@@ -5,7 +5,9 @@
 
 1. From the terminal clone the respository from github by entering the command git clone www.github.com/Dalepalmer/newspaper.git
 
-* Or by visiting www.github.com/Dalepalmer/newspaper.git and downloading the zip file.
+Or by
+
+visiting www.github.com/Dalepalmer/newspaper and downloading the zip file.
 
 2. In the terminal, change directories to the newspaper folder.
 
